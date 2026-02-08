@@ -22,8 +22,9 @@ function ValentineWindow() {
   if (clicked) {
     return (
       <div className="want-container">
-        <p className="want-text">¡ Si ! </p>
+        <p className="want-text">Yiippeeee!</p>
         <img className="cat-gif cat-dancing" src={catDancing} alt="Cat Dancing" />
+        <p className="want-text down-text">I knew you would say yes!</p>
       </div>
     );
   }
