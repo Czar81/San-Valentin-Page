@@ -74,10 +74,10 @@ li {
 }
 
 @font-face {
-  font-family: 'Minecraft';
-  src: url('./assets/fonts/Minecraft.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Minecraft';
+    src: url('./assets/fonts/Minecraft.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 main,
@@ -149,9 +149,11 @@ main {
     align-items: center;
     margin-bottom: 6rem;
 }
-.cat-dancing{
+
+.cat-dancing {
     margin-bottom: 6rem;
 }
+
 .btn {
     background-color: transparent;
     background-size: contain;
@@ -178,7 +180,7 @@ main {
     background-image: url("./assets/img/btn-yes.png");
 }
 
-.want-text{
+.want-text {
     font-size: 0.8rem;
     font-family: 'Minecraft', monospace;
     font-weight: 900;
@@ -186,76 +188,73 @@ main {
 
 
 
-.cat-gif{
+.cat-gif {
     width: 30%;
 }
 
-/* Media Queries para computadoras y pantallas grandes */
 @media (min-width: 1024px) {
     .btn-container {
         margin-bottom: 9rem;
         gap: 30px;
     }
-    
+
     .cat-dancing {
         margin-bottom: 9rem;
     }
-    
+
     .btn {
         width: 100px;
         height: 80px;
     }
-    
+
     .want-text {
         font-size: 1.8rem;
     }
-    
+
     .cat-gif {
         width: 25%;
     }
 }
 
-/* Media Queries para tablets */
 @media (min-width: 769px) and (max-width: 1023px) {
     .btn-container {
         margin-bottom: 11rem;
         gap: 25px;
     }
-    
+
     .cat-dancing {
         margin-bottom: 11rem;
     }
-    
+
     .btn {
         width: 85px;
         height: 65px;
     }
-    
+
     .want-text {
         font-size: 1.4rem;
     }
 }
 
-/* Media Queries para móviles pequeños */
 @media (max-width: 480px) {
     .btn-container {
-        margin-bottom: 5rem;
+        margin-bottom: 8rem;
         gap: 15px;
     }
-    
+
     .cat-dancing {
-        margin-bottom: 5rem;
+        margin-bottom: 8rem;
     }
-    
+
     .btn {
         width: 50px;
         height: 40px;
     }
-    
+
     .want-text {
         font-size: 1rem;
     }
-    
+
 }
 
 p {
