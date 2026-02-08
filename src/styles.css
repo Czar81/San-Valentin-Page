@@ -73,6 +73,13 @@ li {
     list-style: none;
 }
 
+@font-face {
+  font-family: 'Minecraft';
+  src: url('./assets/fonts/Minecraft.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 main,
 html {
     width: 100vw;
@@ -86,14 +93,14 @@ main {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-image: url("./assets/backgroup.png");
+    background-image: url("./assets/img/heart-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .letter {
-    background-image: url("./assets/letter.png");
+    background-image: url("./assets/img/letter.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -125,15 +132,14 @@ main {
     width: 100%;
     max-width: 500px;
     height: 70%;
-    background-image: url("./assets/bg.png");
+    background-image: url("./assets/img/bg.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 30px;
+    justify-content: flex-end;
 }
 
 .btn-container {
@@ -141,9 +147,11 @@ main {
     gap: 20px;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-bottom: 130px;
 }
-
+.cat-dancing{
+    margin-bottom: 130px;
+}
 .btn {
     background-color: transparent;
     background-size: contain;
@@ -162,23 +170,26 @@ main {
 }
 
 .btn-not {
-    background-image: url("./assets/btn-no.png");
+    background-image: url("./assets/img/btn-no.png");
     pointer-events: auto;
 }
 
 .btn-yes {
-    background-image: url("./assets/btn-yes.png");
+    background-image: url("./assets/img/btn-yes.png");
 }
 
 p {
     font-size: 2rem;
-    font-family: monospace;
+    font-family: 'Minecraft', monospace;
     font-weight: bold;
     color: rgb(46, 46, 46);
 }
 .want-text{
-    margin-top: 3rem;
     font-size: 1.5rem;
-    font-family: monospace;
-    font-weight: bold;
+    font-family: 'Minecraft', monospace;
+    font-weight: 900;
+}
+
+.cat-gif{
+    width: 30%;
 }
