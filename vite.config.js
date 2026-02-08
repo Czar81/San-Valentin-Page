@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/san-valetin-page/",
+  base: "/San-Valetin-Page/",
   plugins: [react()],
 })
