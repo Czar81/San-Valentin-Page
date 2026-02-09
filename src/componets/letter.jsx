@@ -8,7 +8,7 @@ function Letter({ setClickedLetter }) {
         tabIndex={0}
         aria-label="Open love letter"
       />
-      <p className="letter-text">A letter for you</p>
+      <p className="letter-text">♡ A letter for you ♡</p>
     </div>
   );
 }
